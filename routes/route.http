@@ -1,1 +1,28 @@
-GET http://127.0.0.1:3000/subscribers/
+GET http://127.0.0.1:3000/subscribers
+
+###
+
+GET http://127.0.0.1:3000/subscribers/637e80c955cf137276ac997e
+
+###
+
+POST http://127.0.0.1:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": "Web Dev Simlified"
+}
+
+###
+
+DELETE http://127.0.0.1:3000/subscribers/637e80c955cf137276ac997e
+
+###
+
+PATCH http://127.0.0.1:3000/subscribers/637e86d193b5195f7312724a
+Content-Type: application/json
+
+{
+    "name": "Samuduni Wijerathna"
+}
