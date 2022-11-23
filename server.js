@@ -12,6 +12,6 @@ db.once('open', () => console.log('Connected to Database'))
 app.use(express.json())                                         // this lets the server accept JSON as a body 
 
 const subscribersRouter = require('./routes/subscribers')       // to route all of our subscriber information 
-app.use('subscribers', subscribersRouter)
+app.use('/subscribers', subscribersRouter)
 
 app.listen(3000, () => console.log('Server Started'))           
