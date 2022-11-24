@@ -2,22 +2,20 @@ GET http://127.0.0.1:3000/subscribers
 
 ###
 
-GET http://127.0.0.1:3000/subscribers/637e80c955cf137276ac997e
-
+GET http://127.0.0.1:3000/subscribers/637f0798ce26c34d5d54e203
 ###
 
 POST http://127.0.0.1:3000/subscribers
 Content-Type: application/json
 
 {
-    "name": "Amazing Person",
-    "subscribedToChannel": "Web Dev Simlified"
+    "name": "Edward Elric",
+    "subscribedToChannel": "Alchemist"
 }
 
 ###
 
-DELETE http://127.0.0.1:3000/subscribers/637e80c955cf137276ac997e
-
+DELETE http://127.0.0.1:3000/subscribers/637f06a9ce26c34d5d54e1eb
 ###
 
 PATCH http://127.0.0.1:3000/subscribers/637e86d193b5195f7312724a
